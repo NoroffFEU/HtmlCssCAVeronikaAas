@@ -1,4 +1,8 @@
-
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
 body {
     display: flex;
     flex-direction: column;
@@ -96,14 +100,16 @@ h2 {
 }
 
 .faq img {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: auto;
     padding-top: 150px;
     padding-left: 50px;
 }
 
 .logo {
-    width: 132px;
+    max-width: 132px;
+    width: 100%;
     height: auto;
     float: left;
     margin: 10px;
@@ -113,7 +119,8 @@ h2 {
 header {
     background-color: #DFE9EA;
     width: cover;
-    height: 110px;
+    max-height: 110px;
+    height: 100%;
 }
 
 body {
@@ -125,7 +132,8 @@ body {
 
 footer {
     width: cover;
-    height: 200px;
+    max-height: 200px;
+    height: 100%;
 }
 
 .footertext {

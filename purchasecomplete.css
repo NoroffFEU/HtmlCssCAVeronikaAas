@@ -1,4 +1,8 @@
-
+@media (max-width: 600px) {
+  body {
+      font-size: 18px;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -14,8 +18,8 @@ main {
 }
 
 footer {
-    height: 200px;
-    background-color: #b5d0d3;
+  height: 200px;
+  background-color: #b5d0d3;
 }
 
 nav {
@@ -34,7 +38,8 @@ nav :hover {
 }
 
 .logo {
-  width: 132px;
+  max-width: 132px;
+  width: 100%;
   height: auto;
   float: left;
   margin: 10px;
@@ -111,19 +116,21 @@ ul {
 }
   
 img {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 350px;
   margin-top: 50px;
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 footer {
     width: cover;
-    height: 200px;
+    max-height: 200px;
+    height: 100%;
 }
 
 .footertext {

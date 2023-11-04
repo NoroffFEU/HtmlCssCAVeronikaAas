@@ -1,4 +1,8 @@
-
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
 body {
     display: flex;
     flex-direction: column;
@@ -14,8 +18,8 @@ main {
 }
 
 footer {
-        height: 200px;
-        background-color: #b5d0d3;
+    height: 200px;
+    background-color: #b5d0d3;
 }
 
 nav {
@@ -34,7 +38,8 @@ nav :hover {
 }
 
 .logo {
-    width: 132px;
+    max-width: 132px;
+    width: 100%;
     height: auto;
     float: left;
     margin: 10px;
@@ -70,9 +75,9 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 40px;
     padding-left: 20px;
-   }
+}
    
-   .dropdown-content {
+.dropdown-content {
     font-family: Arial, Helvetica, sans-serif;
     display: none;
     position: absolute;
@@ -81,26 +86,26 @@ p {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-   }
+}
    
-   .dropdown-content a {
+.dropdown-content a {
     color: #3B4058;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-   }
+}
    
-   .dropdown-content a:hover {background-color: #3B4058; color:#F5F4F4;}
+.dropdown-content a:hover {background-color: #3B4058; color:#F5F4F4;}
    
-   .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
     color: #F5F4F4;
-   }
+}
    
-   .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
     background-color: #3B4058;
     color: #F5F4F4;
-   }
+}
 
 ul {
     list-style-type: none;
@@ -129,6 +134,7 @@ figcaption {
 .game-covers1 img {
     display: flex;
     max-width: 200px;
+    width: 100%;
     height: auto;
     margin-right: 20px;
     flex-wrap: wrap;
@@ -144,6 +150,7 @@ figcaption {
 .game-covers2 img {
     display: flex;
     max-width: 200px;
+    width: 100%;
     height: auto;
     margin-right: 20px;
     flex-wrap: wrap;
@@ -158,6 +165,7 @@ figcaption {
 .game-covers3 img {
     display: flex;
     max-width: 200px;
+    width: 100%;
     height: auto;
     margin-right: 20px;
     flex-wrap: wrap;
@@ -172,6 +180,7 @@ figcaption {
 .game-covers4 img {
     display: flex;
     max-width: 200px;
+    width: 100%;
     height: auto;
     margin-right: 20px;
     flex-wrap: wrap;
@@ -179,7 +188,8 @@ figcaption {
 
 footer {
     width: cover;
-    height: 200px;
+    max-height: 200px;
+    height: 100%;
 }
 
 .footertext {

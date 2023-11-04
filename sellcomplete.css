@@ -1,3 +1,8 @@
+@media (max-width: 600px) {
+  body {
+      font-size: 18px;
+  }
+}
 
 body {
   display: flex;
@@ -34,7 +39,8 @@ nav :hover {
 }
 
 .logo {
-  width: 132px;
+  max-width: 132px;
+  width: 100%;
   height: auto;
   float: left;
   margin: 10px;
@@ -111,35 +117,37 @@ ul {
 }
   
 img {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 350px;
   margin-top: 50px;
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 footer {
-    width: cover;
-    height: 200px;
+  width: cover;
+  max-height: 200px;
+  height: 100%;
 }
 
 .footertext {
-    display: flex;
+  display: flex;
 }
    
 .footertext p {
-    flex: 1;
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#3B4058;
-    font-size: 17px;
-    font-weight: 700;
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-around;
+  flex: 1;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#3B4058;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
 }
 
 
