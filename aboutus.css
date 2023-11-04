@@ -17,6 +17,11 @@ footer {
     background-color: #b5d0d3 ;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
@@ -96,7 +101,8 @@ h2 {
 }
 
 .creators img {
-   max-width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: auto;
     padding-top: 150px;
     padding-left: 50px;
@@ -104,6 +110,7 @@ h2 {
 
 .logo {
     max-width: 132px;
+    width: 100%;
     height: auto;
     float: left;
     margin: 10px;
