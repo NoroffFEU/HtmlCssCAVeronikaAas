@@ -1,6 +1,10 @@
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     body {
         font-size: 18px;
+    }
+    nav {
+        font-size: 16px;
+        width: 100%;
     }
 } 
 
@@ -12,7 +16,6 @@ body {
 
 header {
     max-height: 110px;
-    height: 100%;
 }
 
 main {
@@ -21,7 +24,6 @@ main {
 
 footer {
     max-height: 200px;
-    height: 100%;
     background-color: #b5d0d3 ;
 }
 
@@ -159,10 +161,21 @@ footer {
     justify-content: space-around;
 }
 
-.some {
+.fa-square-instagram {
     font-size: 50px;
     margin-top: 60px;
     margin-left: 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
+}
+
+.fa-square-facebook {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.fa-discord {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 70px;
 }
