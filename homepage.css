@@ -22,18 +22,23 @@ footer {
     background-color: #b5d0d3 ;
 }
 
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-    color:#3B4058;
-    font-size: 20px;
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 40px;
 }
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3B4058;
+    font-size: 20px;
+}
 
 nav :hover {
     text-decoration: underline;
+
 }
 
 .logo {
