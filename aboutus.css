@@ -1,0 +1,183 @@
+@media screen and (max-width:600px) {
+    header, footer, body {
+        width: 100%;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    max-height: 110px;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    max-height: 200px;
+    background-color: #b5d0d3 ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3B4058;
+    font-size: 20px;
+}
+
+nav :hover {
+    text-decoration: underline;
+
+}
+.dropdown {
+    position: absolute;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+   
+.dropdown-content {
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #F5F4F4;
+    color: #3B4058;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+   
+.dropdown-content a {
+    color: #3B4058;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+   
+.dropdown-content a:hover {background-color: #3B4058; color:#F5F4F4;}
+   
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #F5F4F4;
+}
+   
+.dropdown:hover .dropbtn {
+    background-color: #3B4058;
+    color: #F5F4F4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F5F4F4;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F4F4;
+    margin-top: 200px;
+}
+.creatorsp {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#F5F4F4;
+    font-size: 1.125em;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.creators {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.creators img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-left: 50px;
+    float: left;
+}
+
+.logo {
+    max-width: 132px;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 10px;
+    padding-left: 50px;
+  }
+
+header {
+    background-color: #DFE9EA;
+    width: cover;
+    height: 100%;
+}
+
+body {
+    background-image: url(/assets/images/frontpagesky.jpg);
+    opacity: 0,8;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+footer {
+    width: cover;
+    height: 100%;
+}
+
+.footerall {
+    display: flex;
+    flex-direction: column;
+}
+
+.footertext {
+    display: flex;
+}
+   
+.footertext p {
+    flex: 1;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3B4058;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-square-instagram {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.fa-square-facebook {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.fa-discord {
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
